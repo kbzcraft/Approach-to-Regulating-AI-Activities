@@ -1,0 +1,21 @@
+
+*{
+    /* margin: 0; */
+    padding: 0;
+    line-height: calc(1em + 8px);
+}
+/* Default styles for the blog post */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 750px; /* Set a maximum width for the main content */
+    padding: 20px;
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
